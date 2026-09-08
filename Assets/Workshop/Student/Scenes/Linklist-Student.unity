@@ -337,8 +337,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Name: Zombie
-  positionX: 0
-  positionY: 0
+  positionX: 4
+  positionY: 5
   mapGenerator: {fileID: 760521284}
   energy: 0
   AttackPoint: 0
