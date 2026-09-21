@@ -382,30 +382,61 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86fbaf664c0f73049ab5d67e60db4318, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Assignment.Assignment
-  as01Words: []
-  as02Numbers: 
-  as03Input: 
+  as01Words:
+  - apple
+  - banana
+  - cherry
+  as02Numbers: 01000000020000000300000002000000010000000300000001000000
+  as03Input: ()
   as04List:
-    values: 
+    values: 0100000002000000030000000400000005000000
   as05List:
-    values: []
+    values:
+    - A
+    - B
+    - C
   as06FirstDictionary:
-    entries: []
+    entries:
+    - key: Apple
+      value: 3
+    - key: Banana
+      value: 2
   as06SecondDictionary:
-    entries: []
+    entries:
+    - key: Apple
+      value: 1
+    - key: Cherry
+      value: 4
   as07List:
-    values: 
-  as08Numbers: 
+    values: 01000000020000000200000003000000030000000300000004000000
+  as08Numbers: 010000000200000003000000030000000400000005000000
   as09Inventory:
-    entries: []
-  as09ItemName: 
-  as09Quantity: 0
+    entries:
+    - key: sword
+      value: 1
+    - key: Potion
+      value: 5
+  as09ItemName: Shield
+  as09Quantity: 2
   as10EventQueue:
-    values: []
+    values:
+    - eventType: enemy
+      name: Goblin
+      priority: 1
+    - eventType: Power Up
+      name: Health Boost
+      priority: 1
+    - eventType: Level
+      name: Level Up
+      priority: 1
   as11PlayerStats:
-    entries: []
-  as11StatName: 
-  as11Value: 0
+    entries:
+    - key: Kill
+      value: 100
+    - key: Death
+      value: 5
+  as11StatName: assist
+  as11Value: 3
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
